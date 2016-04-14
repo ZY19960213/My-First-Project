@@ -9,6 +9,7 @@ void user_init()
 {
 	uart_init(115200,115200);
 	uart0_sendStr("\r\nHello World\r\n");
+	uart0_sendStr("\r\nHello World\r\n");
 }
 void user_rf_pre_init(){}
 
